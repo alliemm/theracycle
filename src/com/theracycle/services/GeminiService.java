@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  * report structuring — AI only augments the final summary
  */
 public class GeminiService implements AIService {
-    private static final String API_KEY = "AIzaSyC2uUbQhgP3Y4UQVKTI3wB2e3TvXUyC7X8";
+    private static final String API_KEY = "KEY";
     private static final String API_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent";
     private static final int TIMEOUT_SECONDS = 15;
